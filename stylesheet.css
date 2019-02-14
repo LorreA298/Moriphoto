@@ -1,0 +1,57 @@
+body {
+    font-family: 'Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
+  	background-blend-mode: screen;
+    background-color: #ccc;
+    background-image: url("19964_en_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    z-index: -1;
+}
+
+div .header-block{
+  background-color: #ffffff;
+  opacity: 0.5;
+  margin-top: 0;
+}
+
+header{
+  /* height: 10%; */
+  width: 100%;
+  position: fixed;
+  /* border-bottom: 1px solid #000; */
+  font-family: 'times';
+}
+
+.contents{
+    border-bottom: 1px solid #000;
+  position: relative;
+  height: 100%;
+  padding: 0;
+}
+
+.contents a{
+  height: 100%;
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  padding: 0px 20px;
+}
+
+.contents .user-info{
+  float: right;
+}
+
+.contents a:hover{
+  background-color: #777777;
+  text-decoration: none;
+}
+
+.contents a span{
+  display: block;
+  height: 100%;
+  color: #000000;
+  font-size: 6vmin;
+  vertical-align: middle;
+}
